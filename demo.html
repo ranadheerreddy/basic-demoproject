@@ -1,0 +1,139 @@
+<!DOCTYPE html manifest='demo.appcache.txt'>
+<html lang="en-US">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="nomalize.css" />
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <title></title>
+
+    <a href="new.html" style="text-decoration: none;">Next Page</a> <br><br>
+
+    <iframe src="new.html" width="200px" height="100px"></iframe>
+
+
+    <table class="tab" align="right" cellpadding="10">
+        <caption>This is the table of Persons.</caption>
+        <colgroup>
+            <col span="2" style=" background-color: yellow ">
+            </col>
+            <col style="background-color:blue">
+        </colgroup>
+
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Raja</td>
+            <td>26</td>
+            <td>Bangalore</td>
+        </tr>
+        <tr>
+            <td>Rana</td>
+            <td>27</td>
+            <td>Hyderabad</td>
+        </tr>
+    </table>
+
+    <marquee style='font-size: 20px; background-color: tomato '>this is marquee text</marquee>
+
+    <dl>
+        <dt>Tea</dt>
+        <dd>- Brown Hot Drink</dd>
+        <dt>CoolDrink</dt>
+        <dd>- Coloured Cold Drink</dd>
+    </dl>
+    <strong>This is strong text</strong>
+    <em>This is em text.</em><br>
+
+    <p>this is a
+        <font color="brown">new webpage</font> that is basically created using html.</p>
+
+    <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </blockquote>
+</head>
+
+<body>
+    <input list="browser">
+    <datalist id="browser">
+        <option>Mozilla</option>
+        <option>Chrome</option>
+        <option>Safari</option>
+        <option>IE</option>
+    </datalist>
+
+    <select name="cars" size="2">
+        <option value="BMW">BMW</option>
+        <option value="Mercedes" selected>Mercedes</option>
+        <option value="Toyota">Toyota</option>
+    </select>
+
+    <h2 style="color: red">HTML5 Elements:</h2>
+
+    <input type="text" name="Inputs" size="30" minlength="5" autofocus><br><br>
+
+    <h1 class="h1-class" id="h1-id" style="color: brown">
+        this is heading 1!
+    </h1>
+
+    <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <br>
+    <div id="div1">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+    </div>
+    <br>
+    <div id="div-tran">
+        Welcome to HTML!
+    </div>
+
+    <h3>Event Bubbling</h3>
+    <form onclick="alert('Hello World')" style="border: 1px solid brown; width: 200px;height: 120px;padding: 2px"> Form
+        <div onclick='alert("World")' style="border: 1px solid blue;width: 150px;height: 80px; padding: 2px">Outer Div
+            <br>
+            <button id='btn-inner' onclick='alert("Hello")' style="border: 1px solid red;padding: 3px; border-radius: 2px 2px yellow"> Inner Button</button>
+        </div>
+    </form>
+
+    <ul class="characters">
+        <li>
+            <input type="checkbox" name="" id="item0">
+            <label for="item0">Mickey</label>
+        </li>
+        <li>
+            <input id="item1" type="checkbox">
+            <label for="item1">Minnie</label>
+            </input>
+        </li>
+        <li>
+            <input id="item2" type="checkbox">
+            <label for="item2">Goofy</label>
+            </input>
+        </li>
+    </ul>
+    <a href="https://www.facebook.com/" target="new">
+        <img src="fog.jpg" alt="Image unavailable" id="fog-image">
+    </a>
+
+    <div id="box-model">
+        This is a Div element with box-model.
+    </div>
+
+    <h4>Mouse hover me to see the effect!</h4>
+
+    <h3 id="h3-id" class="h3-class" style="color: cornflowerblue;">this is h3 element!</h3>
+
+</body>
+
+</html>

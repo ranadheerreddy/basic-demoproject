@@ -1,0 +1,20 @@
+CACHE MANIFEST
+
+CACHE:
+#pages
+new.html
+demo.html
+
+#images
+fog.jpg
+
+#styles/ scripts
+styles.css
+javascript.js
+
+NETWORK:
+login.php
+
+
+FALLBACK:
+//offline.html
